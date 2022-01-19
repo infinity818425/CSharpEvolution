@@ -1,0 +1,24 @@
+using System;
+
+namespace CSharpPlayground
+{
+class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Name:");
+            string characterName = Console.ReadLine();
+            Console.WriteLine("Gender:");
+            string characterGender = Console.ReadLine();
+            Console.WriteLine("Pronoun: He/She/It");
+            string characterGendertwo = Console.ReadLine();
+            Console.WriteLine("Age:");
+            int characterAge = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("There once was a " + characterGender + " named " + characterName);
+            Console.WriteLine(characterGendertwo + " was " + characterAge + " years old");
+            Console.WriteLine(characterGendertwo + " really liked the name " + characterName);
+            Console.WriteLine("But " + characterGendertwo + " didnt like being " + characterAge);
+        }
+    }
+}
